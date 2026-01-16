@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Method - Online Service Payment Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <h2>Online Service Payment Guide</h2>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="choose-system.html">Choose System</a></li>
+        <li><a href="guide.html">Guide</a></li>
+        <li><a href="payment.html" class="active">Payment</a></li>
+        <li><a href="successful.html">success</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Payment Method</h1>
+      <p class="hero-subtitle">
+        Learn how to securely complete your payment and what happens next.
+      </p>
+    </div>
+  </section>
+
+  <!-- Payment Methods -->
+  <section>
+    <div class="container">
+
+      <input type="radio" id="card" name="payment-method" value="card" style="display: none;">
+      <input type="radio" id="mobile" name="payment-method" value="mobile-money" style="display: none;">
+
+      <div class="payment-methods">
+        <label for="card">
+          <div class="payment-method">
+            <div class="payment-icon">💳</div>
+            <h3>Card Payment</h3>
+            <p>Pay securely using credit or debit cards (Visa, Mastercard, American Express).</p>
+          </div>
+        </label>
+
+        <label for="mobile">
+          <div class="payment-method">
+            <div class="payment-icon">📱</div>
+            <h3>Pay with Mobile Money</h3>
+            <p>Fast and secure payments via mobile money services in your region.</p>
+          </div>
+        </label>
+      </div>
+
+      <div class="payment-form-container">
+        <div id="card-form" class="payment-form">
+          <h3>💳 Card Payment</h3>
+          <p>Enter your card details securely below:</p>
+          <form>
+            <div>
+              <label>Cardholder Name</label>
+              <input type="text" placeholder="John Doe" required>
+            </div>
+            <div>
+              <label>Card Number (16 digits)</label>
+              <input type="text" placeholder="1234 5678 9012 3456" maxlength="19" required>
+            </div>
+            <div class="form-row">
+              <div>
+                <label>Expiration Date (MM/YY)</label>
+                <input type="text" placeholder="12/25" maxlength="5" required>
+              </div>
+              <div>
+                <label>CVV Code (3–4 digits)</label>
+                <input type="text" placeholder="123" maxlength="4" required>
+              </div>
+            </div>
+            <div>
+              <label>Billing Address</label>
+              <input type="text" placeholder="123 Main Street, City, Country" required>
+            </div>
+            <a href="payment-successful.html" class="btn">Confirm Payment</a>
+          </form>
+        </div>
+
+        <div id="mobile-form" class="payment-form">
+          <h3>📱 Pay with Mobile Money</h3>
+          <p>Enter your mobile money details securely below:</p>
+          <form>
+            <div>
+              <label>Mobile Network Operator</label>
+              <select required>
+                <option value="">-- Select Provider --</option>
+                <option value="mtn">MTN</option>
+                <option value="airtel">Airtel</option>
+                <option value="tigo">Tigo</option>
+              </select>
+            </div>
+            <div>
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+250 712 345 678" required>
+            </div>
+            <div>
+              <label>Amount to Pay</label>
+              <input type="text" placeholder="KES 1,999" required>
+            </div>
+            <a href="payment-successful.html" class="btn">Confirm Payment</a>
+          </form>
+        </div>
+
+        <div id="bank-form"></div>
+      </div>
+
+      <!-- Security Section -->
+      <div class="security-section">
+        <h3>Security & After Payment</h3>
+
+        <div class="security-features">
+          <div class="security-feature">🔒 Encrypted Transactions</div>
+          <div class="security-feature">🛡️ Data Protection</div>
+          <div class="security-feature">📧 Email Confirmation</div>
+        </div>
+
+        <p>
+          All payments are processed securely. After payment, you will receive a confirmation email and setup begins within 24–48 hours
+        </p>
+      </div>
+
+      <!-- Process Flow -->
+
+     
+
+    </div>
+  </section>
+
+
+
+</body>
+</html>
