@@ -36,13 +36,13 @@ It explains how users can choose a system, select a server, and follow the payme
 5. Receive confirmation and next steps
 
 
-### 1. Choose Your System
+### Choose Your System
 - **Website Hosting** – Blogs, portfolios, company websites  
 - **E-commerce System** – Online selling platforms  
 - **Mobile App Backend** – APIs, databases, authentication  
 - **API Hosting** – High-performance backend services  
 
-### 2. Choose Your Server
+### Choose Your Server
 - **Small Server** – Personal projects, low traffic  
 - **Medium Server** – Business websites, moderate traffic  
 - **Large Server** – High-traffic and enterprise systems 
@@ -92,14 +92,14 @@ servicehub-online-payment/
 
 ---
 
-### 1. Figma Design to HTML/CSS Mapping
+###  Figma Design to HTML/CSS Mapping
 - Figma layouts were converted into semantic HTML sections  
 - Flexbox was used for navigation and card layouts  
 - CSS Grid was used for responsive page structures  
 - Colors, fonts, and spacing follow the Figma design system  
 - Hover effects and transitions enhance usability 
 ---
-### 2. Design
+###  Design
 - Clean and modern interface  
 - Fully responsive (desktop, tablet, mobile)  
 - Consistent color scheme and typography  
