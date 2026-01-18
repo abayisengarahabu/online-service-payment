@@ -6,27 +6,53 @@ This project demonstrates UX planning, frontend development, responsive design, 
 
 ---
 
-##  Problem Statement
-Many users face difficulty when trying to decide:
-- Which online system they need  
-- What server size is appropriate  
-- How the payment process works  
 
 ### User Problem
 > “I don’t know which system or server I need or how to pay for it.”
-
-This platform solves the problem by providing **simple explanations and a step-by-step guided flow**.
+## Solution: 
+The platform provides simple, step-by-step instructions to guide users.
 
 ---
 
 ##  Project Purpose
 - Help users choose the right hosting service  
 - Explain server sizes and pricing  
-- Guide users through the payment process (demonstration only, no real payments)
+- Guide users through the payment process 
 
 ---
 
-##  Technologies Used
+##  User Guide
+The User Guide is available on the live website.  
+It explains how users can choose a system, select a server, and follow the payment steps.
+
+**Live Demo:**  
+[View Live Site](https://abayisengarahabu.github.io/online-service-payment/)
+
+### User Flow
+1. Choose the type of system you need  
+2. Select an appropriate server size  
+3. Review features and pricing  
+4. Follow the payment steps  
+5. Receive confirmation and next steps
+
+
+### 1. Choose Your System
+- **Website Hosting** – Blogs, portfolios, company websites  
+- **E-commerce System** – Online selling platforms  
+- **Mobile App Backend** – APIs, databases, authentication  
+- **API Hosting** – High-performance backend services  
+
+### 2. Choose Your Server
+- **Small Server** – Personal projects, low traffic  
+- **Medium Server** – Business websites, moderate traffic  
+- **Large Server** – High-traffic and enterprise systems 
+
+
+---
+
+ ## Developer Documentation
+ 
+###  Technologies Used
 - HTML5  
 - CSS3 (Flexbox, Grid, Responsive Design)  
 - Git & GitHub  
@@ -34,7 +60,7 @@ This platform solves the problem by providing **simple explanations and a step-b
 
 ---
 
-##  Pages Included
+### Pages Included
 1. **Home** – Introduction and platform overview  
 2. **Choose Your System** – Compare services:
    - Website Hosting
@@ -47,90 +73,49 @@ This platform solves the problem by providing **simple explanations and a step-b
 
 ---
 
-## Target Users
+### Target Users
 - Small business owners  
 - Developers  
 - Startup founders  
 
 ---
+### Project Structure
+servicehub-online-payment/
+├── index.html
+├── choose-system.html
+├── guide.html 
+├── payment.html
+├── success.html
+├── css/
+│ └── style.css
 
-##  Design
+
+---
+
+### 1. Figma Design to HTML/CSS Mapping
+- Figma layouts were converted into semantic HTML sections  
+- Flexbox was used for navigation and card layouts  
+- CSS Grid was used for responsive page structures  
+- Colors, fonts, and spacing follow the Figma design system  
+- Hover effects and transitions enhance usability 
+---
+### 2. Design
 - Clean and modern interface  
 - Fully responsive (desktop, tablet, mobile)  
 - Consistent color scheme and typography  
 - Hover effects on buttons and cards  
 - Clear layout and spacing  
 
----
-
-##  User Guide
-
-This guide is for anyone using the platform to select a system, server, and complete the payment steps.
-
-**Live Demo:**  
-[View Live Site](https://abayisengarahabu.github.io/online-service-payment/
-)
-
-### 1. Choose Your System
-- **Website Hosting** – Blogs, portfolios, company websites  
-- **E-commerce System** – Online selling platforms  
-- **Mobile App Backend** – APIs, databases, authentication  
-- **API Hosting** – High-performance backend services  
-
-### 2. Choose Your Server
-- **Small Server** – Personal projects, low traffic  
-- **Medium Server** – Business websites, moderate traffic  
-- **Large Server** – High-traffic and enterprise systems  
 
 ---
 
-##  Figma Design to HTML/CSS Mapping
-- Figma layouts were converted into semantic HTML sections  
-- Flexbox was used for navigation and card layouts  
-- CSS Grid was used for responsive page structures  
-- Colors, fonts, and spacing follow the Figma design system  
-- Hover effects and transitions enhance usability  
-
----
- ## Developer Documentation
-
-##  GitHub Repository
-[View Repository](https://github.com/abayisengarahabu/online-service-payment
-)
-
+### Repository & Design Links
+- [GitHub Repository](https://github.com/abayisengarahabu/online-service-payment)  
+- [Figma Design](https://www.figma.com/design/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide)  
+- [Figma Prototype](https://www.figma.com/proto/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide)
 ---
 
-##  Figma Design
-[View Design](https://www.figma.com/design/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide)
-
-##  Figma Prototype
-[View Prototype](https://www.figma.com/proto/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide)
-
----
- ## Developer Documentation
-##  Project Structure
-servicehub-online-payment/
-├── index.html
-├── choose-system.html
-├── guide.html
-├── payment.html
-├── success.html
-├── css/
-│ └── style.css
-└── assets/
-
----
-
-## How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abayisengarahabu999-coder/online-service-payment.git
-   ```
-2.  Open the project folder.
-3.  Open index.html in your browser
-    **OR** use the VS Code Live Server extension for live preview.
-
-##  What I Learned
+### What I Learned
 - User-centered design thinking
 - Semantic HTML structure
 - Modern CSS layout techniques (Flexbox & Grid)
@@ -141,7 +126,8 @@ servicehub-online-payment/
 ## Author
 Rahabu Abayisenga
 Task 1 – Online Service Payment System Guide
-January 04, 2026
+January 18, 2026
+
  ## License
 This project is created for educational purposes only.
 
