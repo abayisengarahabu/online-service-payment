@@ -8,7 +8,7 @@ This project demonstrates UX planning, frontend development, responsive design, 
 
 
 ### User Problem
- “I don’t know which system or server I need or how to pay for it.”
+ I don’t know which system or server I need or how to pay for it.
 ## Solution: 
 The platform provides simple, step-by-step instructions to guide users.
 
