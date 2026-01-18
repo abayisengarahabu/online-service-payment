@@ -68,7 +68,8 @@ This platform solves the problem by providing **simple explanations and a step-b
 This guide is for anyone using the platform to select a system, server, and complete the payment steps.
 
 **Live Demo:**  
-[View Live Site](https://abayisengarahabu.github.io/online-service-payment/)
+[View Live Site](https://abayisengarahabu.github.io/online-service-payment/
+)
 
 ### 1. Choose Your System
 - **Website Hosting** – Blogs, portfolios, company websites  
@@ -94,7 +95,8 @@ This guide is for anyone using the platform to select a system, server, and comp
  ## Developer Documentation
 
 ##  GitHub Repository
-[View Repository](https://github.com/abayisengarahabu/online-service-payment)
+[View Repository](https://github.com/abayisengarahabu/online-service-payment
+)
 
 ---
 
