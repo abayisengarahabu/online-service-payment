@@ -111,8 +111,8 @@ servicehub-online-payment/
 
 ### Repository & Design Links
 - [GitHub Repository](https://github.com/abayisengarahabu/online-service-payment)  
-- [Figma Design](https:https://www.figma.com/proto/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide?node-id=49-7&t=MN7I2r47ubS7MliN-1)  
-- [Figma Prototype](https://www.figma.com/proto/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide)
+- [Figma Design](https://www.figma.com/design/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide?node-id=49-7&t=tTIQUawProcZbDaU-1)  
+- [Figma Prototype](https://www.figma.com/proto/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide?node-id=49-7&t=tTIQUawProcZbDaU-1)
 ---
 
 ### What I Learned
