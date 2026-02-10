@@ -47,7 +47,7 @@ body {
 }
 
 .hamburger {
-    display: none;
+    display: flex;
     flex-direction: column;
     cursor: pointer;
     padding: 5px;
@@ -76,30 +76,43 @@ body {
 }
 
 .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    background: white;
     list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: max-height 0.3s ease;
+    z-index: 999;
+}
+
+#menu-toggle:checked ~ .nav-links {
+    max-height: 400px;
 }
 
 .close-btn {
     display: none;
 }
 
-#menu-toggle:checked ~ .nav-links {
-    right: 0;
+.nav-links li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .nav-links a {
+    display: block;
+    padding: 1rem;
+    width: 100%;
     text-decoration: none;
     color: #1F2937;
     font-weight: 500;
-    font-size: 0.95rem;
     transition: all 0.3s;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -714,52 +727,9 @@ section {
 }
 
 /* Responsive Design */
-@media (min-width: 769px) {
-    .hamburger {
-        display: none !important;
-    }
-}
-
 @media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-    
-    .nav-links {
-        position: fixed;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-        background: white;
-        flex-direction: column;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        transition: max-height 0.3s ease;
-    }
-    
-    #menu-toggle:checked ~ .nav-links {
-        max-height: 400px;
-    }
-    
-    .close-btn {
-        display: none;
-    }
-    
-    .nav-links li {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #f0f0f0;
-    }
-    
-    .nav-links a {
-        display: block;
-        padding: 1rem;
-        width: 100%;
-    }
-    
     .nav-brand h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .hero-content h1 {
