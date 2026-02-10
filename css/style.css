@@ -48,32 +48,6 @@ body {
 
 .hamburger {
     display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 5px;
-    z-index: 1002;
-    position: relative;
-}
-
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background: #2563EB;
-    margin: 3px 0;
-    border-radius: 2px;
-    transition: all 0.3s ease;
-}
-
-#menu-toggle:checked + .hamburger span:nth-child(1) {
-    transform: rotate(45deg) translate(7px, 7px);
-}
-
-#menu-toggle:checked + .hamburger span:nth-child(2) {
-    opacity: 0;
-}
-
-#menu-toggle:checked + .hamburger span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
 }
 
 .nav-links {
@@ -82,6 +56,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .close-btn {
@@ -715,64 +690,24 @@ section {
 }
 
 /* Responsive Design */
-@media (min-width: 769px) {
-    .hamburger {
-        display: none !important;
-    }
-}
-
 @media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-    
-    .nav-links {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        max-width: 300px;
-        height: 100vh;
-        background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
-        flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-        transition: right 0.4s ease;
-        z-index: 1001;
-        box-shadow: -4px 0 20px rgba(0,0,0,0.3);
-    }
-    
-    #menu-toggle:checked ~ .nav-links {
-        right: 0;
-    }
-    
-    .close-btn {
-        display: block;
-        position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
-        font-size: 2.5rem;
-        color: white;
-        cursor: pointer;
-        line-height: 1;
-    }
-    
-    .nav-links a {
-        color: white;
-        font-size: 1.2rem;
-        padding: 0.75rem 2rem;
-    }
-    
-    .nav-links a:hover {
-        background: rgba(255,255,255,0.2);
-    }
-    
-    .nav-links a.active {
-        background: rgba(255,255,255,0.3);
+    .navbar .container {
+        flex-wrap: wrap;
+        gap: 1rem;
     }
     
     .nav-brand h2 {
         font-size: 1.1rem;
+    }
+    
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .nav-links a {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
     }
     
     .hero-content h1 {
